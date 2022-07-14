@@ -33,9 +33,9 @@ The project is an example of infrastructure for automation testing using differe
 - Desktop application- Windows calculator 
 
 ### *Tools & Frameworks used in this project*
-**Selenium** - For Web Aplication Testing
+**Selenium** - For Web Application Testing
 
-**Appium** - For Mobile Aplication Testing
+**Appium** - For Mobile Application Testing
 
 **TestNG** - Testing Framework
 
@@ -58,9 +58,9 @@ The project is an example of infrastructure for automation testing using differe
 
 **RestAssured**- for API testing
 
-**WinAppDriver** - For Desktop Aplication Testing
+**WinAppDriver** - For Desktop Application Testing
 
-**Electron Driver** - For Electron Aplication Testing
+**Electron Driver** - For Electron Application Testing
 
 
 
@@ -72,4 +72,5 @@ For each of the following application there is a few simple test cases who meant
 
 
 #### *Known Issues:
-Sometimes can be conflicts with some dependencies the applications are using. Hence, the project is for DEMO purpose only. In production it should be divided into several projects.
+Sometimes there can be conflicts with some dependencies the applications are using. Hence, the project is for DEMO purpose only.
+In production it should be divided into several projects.
