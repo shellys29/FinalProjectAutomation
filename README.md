@@ -71,5 +71,6 @@ For each of the following application there is a few simple test cases who meant
 [to-test-cases](https://github.com/shellys29/FinalProjectAutomation/tree/main/src/test/java "test-cases")
 
 
-#### *Known Issues:
-Sometimes there can be conflicts with some dependencies the applications are using. Hence, the project is for DEMO purpose only.In production it should be divided into several projects.*
+#### *Known Issues:*
+*Sometimes there can be conflicts with some dependencies the applications are using. Hence, the project is for DEMO purpose only.*
+*In production it should be divided into several projects.*
