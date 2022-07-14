@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!-- TIMEOUT -->
+    <TimeOut>5</TimeOut>
+
+    <!-- GENERAL -->
+       <PlatformName>mobile</PlatformName>
+
+    <!-- WEB -->
+    <BrowserName>chrome</BrowserName>
+    <URL>http://localhost:3000/</URL>
+    <ImageRepo>C:/Users/ASUS/Projects/FinalProjectAutomation/FinalProjectAutomation/imagerepository/</ImageRepo>
+
+    <!-- DDT-->
+    <DDTFile>./DDTFiles/users.csv/</DDTFile>
+
+    <!-- MOBILE -->
+    <UDID>DUM0219809002474</UDID>
+    <APP_PACKAGE>com.shivgadhia.android.ukMortgageCalc</APP_PACKAGE>
+    <APP_ACTIVITY>.MainActivity</APP_ACTIVITY>
+    <APPIUM_SERVER>http://localhost:4723</APPIUM_SERVER>
+
+    <!-- API -->
+    <urlAPI>http://localhost:3000/</urlAPI>
+    <api-user>admin</api-user>
+    <api-pass>admin</api-pass>
+
+    <!-- ELECTRON -->
+    <ElectronDriverPath>Drivers\electrondriver.exe</ElectronDriverPath>
+    <ElectronAppPath>C:\Users\ASUS\AppData\Local\Programs\todolist\Todolist.exe</ElectronAppPath>
+
+    <!-- DESKTOP -->
+    <CalculatorApp>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</CalculatorApp>
+    <AppiumServerDesktop>http://127.0.0.1:4723</AppiumServerDesktop>
+
+    <!-- DATABASE -->
+    <DBURL>jdbc:mysql://sql6.freesqldatabase.com:3306/sql6505858</DBURL>
+    <DBUserName>sql6505858</DBUserName>
+    <DBPassword>wBDzfg1EFk</DBPassword>
+
+</Environment>

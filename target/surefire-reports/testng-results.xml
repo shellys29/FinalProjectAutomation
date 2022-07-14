@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Web Suite" duration-ms="58072" started-at="2022-07-14T01:05:19 IDT" finished-at="2022-07-14T01:06:17 IDT">
+    <groups>
+    </groups>
+    <test name="Web Tests" duration-ms="58072" started-at="2022-07-14T01:05:19 IDT" finished-at="2022-07-14T01:06:17 IDT">
+      <class name="sanity.GrafanaWeb">
+        <test-method status="PASS" signature="StartSession(java.lang.String)[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="StartSession" is-config="true" duration-ms="16951" started-at="2022-07-14T01:05:19 IDT" finished-at="2022-07-14T01:05:36 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartSession -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="beforeMethod" is-config="true" duration-ms="62" started-at="2022-07-14T01:05:36 IDT" finished-at="2022-07-14T01:05:36 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.GrafanaWeb.Test01_VerifyHeader()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test01_VerifyHeader()[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="Test01_VerifyHeader" duration-ms="1500" started-at="2022-07-14T01:05:36 IDT" description="Test01 - verify Header" finished-at="2022-07-14T01:05:38 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_VerifyHeader -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="afterMethod" is-config="true" duration-ms="336" started-at="2022-07-14T01:05:38 IDT" finished-at="2022-07-14T01:05:38 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2022-07-14T01:05:38 IDT" finished-at="2022-07-14T01:05:38 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.GrafanaWeb.Test02_VerifyDefaultUsers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test02_VerifyDefaultUsers()[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="Test02_VerifyDefaultUsers" duration-ms="620" started-at="2022-07-14T01:05:38 IDT" description="Test02 - verify Default Users" finished-at="2022-07-14T01:05:39 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test02_VerifyDefaultUsers -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="afterMethod" is-config="true" duration-ms="276" started-at="2022-07-14T01:05:39 IDT" finished-at="2022-07-14T01:05:39 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="beforeMethod" is-config="true" duration-ms="14" started-at="2022-07-14T01:05:39 IDT" finished-at="2022-07-14T01:05:39 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.GrafanaWeb.Test03_VerifyNewUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test03_VerifyNewUser()[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="Test03_VerifyNewUser" duration-ms="1443" started-at="2022-07-14T01:05:39 IDT" description="Test03 - verify New User" finished-at="2022-07-14T01:05:41 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test03_VerifyNewUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="afterMethod" is-config="true" duration-ms="251" started-at="2022-07-14T01:05:41 IDT" finished-at="2022-07-14T01:05:41 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2022-07-14T01:05:41 IDT" finished-at="2022-07-14T01:05:41 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.GrafanaWeb.Test04_VerifyUserDeletion()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test04_VerifyUserDeletion()[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="Test04_VerifyUserDeletion" duration-ms="1156" started-at="2022-07-14T01:05:41 IDT" description="Test04 - verify User Deletion" finished-at="2022-07-14T01:05:42 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test04_VerifyUserDeletion -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="afterMethod" is-config="true" duration-ms="235" started-at="2022-07-14T01:05:42 IDT" finished-at="2022-07-14T01:05:43 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2022-07-14T01:05:43 IDT" finished-at="2022-07-14T01:05:43 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.GrafanaWeb.Test05_verifyBasicSteps()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test05_verifyBasicSteps()[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="Test05_verifyBasicSteps" duration-ms="191" started-at="2022-07-14T01:05:43 IDT" description="Test05 - verify Progress Steps" finished-at="2022-07-14T01:05:43 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test05_verifyBasicSteps -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="afterMethod" is-config="true" duration-ms="315" started-at="2022-07-14T01:05:43 IDT" finished-at="2022-07-14T01:05:43 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="beforeMethod" is-config="true" duration-ms="13" started-at="2022-07-14T01:05:43 IDT" finished-at="2022-07-14T01:05:43 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.GrafanaWeb.Test06_verifyAvatarIcon()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test06_verifyAvatarIcon()[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="Test06_verifyAvatarIcon" duration-ms="933" started-at="2022-07-14T01:05:43 IDT" description="Test06 - verify Avatar Icon" finished-at="2022-07-14T01:05:44 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test06_verifyAvatarIcon -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="afterMethod" is-config="true" duration-ms="328" started-at="2022-07-14T01:05:44 IDT" finished-at="2022-07-14T01:05:44 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="beforeMethod" is-config="true" duration-ms="13" started-at="2022-07-14T01:05:44 IDT" finished-at="2022-07-14T01:05:44 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.GrafanaWeb.Test07_searchUsers(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test07_searchUsers(java.lang.String, java.lang.String)[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="Test07_searchUsers" duration-ms="12866" started-at="2022-07-14T01:05:44 IDT" description="Test07 - Search Users" data-provider="data-provider-users" finished-at="2022-07-14T01:05:57 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yoni]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[not-exist]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test07_searchUsers -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="afterMethod" is-config="true" duration-ms="333" started-at="2022-07-14T01:05:57 IDT" finished-at="2022-07-14T01:05:58 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2022-07-14T01:05:58 IDT" finished-at="2022-07-14T01:05:58 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.GrafanaWeb.Test07_searchUsers(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test07_searchUsers(java.lang.String, java.lang.String)[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="Test07_searchUsers" duration-ms="3952" started-at="2022-07-14T01:05:58 IDT" description="Test07 - Search Users" data-provider="data-provider-users" finished-at="2022-07-14T01:06:02 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[exist]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test07_searchUsers -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="afterMethod" is-config="true" duration-ms="314" started-at="2022-07-14T01:06:02 IDT" finished-at="2022-07-14T01:06:02 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2022-07-14T01:06:02 IDT" finished-at="2022-07-14T01:06:02 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.GrafanaWeb.Test07_searchUsers(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test07_searchUsers(java.lang.String, java.lang.String)[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="Test07_searchUsers" duration-ms="13998" started-at="2022-07-14T01:06:02 IDT" description="Test07 - Search Users" data-provider="data-provider-users" finished-at="2022-07-14T01:06:16 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shelly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[not-exist]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test07_searchUsers -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="afterMethod" is-config="true" duration-ms="322" started-at="2022-07-14T01:06:16 IDT" finished-at="2022-07-14T01:06:16 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="CloseSession()[pri:0, instance:sanity.GrafanaWeb@34448e6c]" name="CloseSession" is-config="true" duration-ms="650" started-at="2022-07-14T01:06:16 IDT" finished-at="2022-07-14T01:06:17 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseSession -->
+      </class> <!-- sanity.GrafanaWeb -->
+    </test> <!-- Web Tests -->
+  </suite> <!-- Web Suite -->
+</testng-results>
