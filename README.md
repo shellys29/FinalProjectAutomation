@@ -49,7 +49,7 @@ The project is an example of infrastructure for automation testing using differe
 
 **Listeners** - interface used to generate logs and customize the TestNG reports
 
-**MySQL** - Free Online DB - used for Grafana web page
+**MySQL** - Free Online DB - for Grafana web page
 
 **Jenkins**- for tests execution
 
@@ -58,9 +58,9 @@ The project is an example of infrastructure for automation testing using differe
 
 **RestAssured**- for API testing
 
-**WinAppDriver** - For Desktop Application Testing
+**WinAppDriver** - for Desktop Application Testing
 
-**Electron Driver** - For Electron Application Testing
+**Electron Driver** - for Electron Application Testing
 
 
 
