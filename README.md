@@ -68,7 +68,7 @@ The project is an example of infrastructure for automation testing using differe
 
 ### *Tests Cases*
 For each of the following application there is a few simple test cases who meant to demonstrate the usage of the tools and frameworks that have been used.
-[to-test-cases](http://https://github.com/shellys29/FinalProjectAutomation/tree/main/src/test/java "test-cases")
+[to-test-cases](https://github.com/shellys29/FinalProjectAutomation/tree/main/src/test/java "test-cases")
 
 
 #### *Known Issues:
