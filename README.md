@@ -39,13 +39,22 @@ The project is an example of infrastructure for automation testing using differe
 
 **TestNG** - Testing Framework
 
+
+    @Test(description = "Test02 - verify default Users")
+    @Description("This test verifies the default users")
+    public void Test02_VerifyDefaultUsers() {
+        UIActions.mouseHover(GrafanaLeftMenu.btn_server, GrafanaServerAdmin.link_users);
+        Verifications.numberOfElements(GrafanaServerAdminMain.rows, 1);
+    }
+
 **Listeners** - interface used to generate logs and customize the TestNG reports
 
 **MySQL** - Free Online DB - used for Grafana web page
 
 **Jenkins**- for tests execution
 
-**Allure Reports** - as the main reporting system
+**Allure Reports** - as the main reporting system 
+![allure exp](https://user-images.githubusercontent.com/109291463/179021063-b8d01ad2-93f2-4bcd-a6d1-25d40891c277.png)
 
 **RestAssured**- for API testing
 
@@ -53,10 +62,12 @@ The project is an example of infrastructure for automation testing using differe
 
 **Electron Driver** - For Electron Aplication Testing
 
+
+
 ------------
 
 ### Tests Cases
-For each of the following application there is a few simple test cases who meant to demonstrate the usage of the tools and frameworks that have been used
+For each of the following application there is a few simple test cases who meant to demonstrate the usage of the tools and frameworks that have been used.
 [to-test-cases](http://https://github.com/shellys29/FinalProjectAutomation/tree/main/src/test/java "test-cases")
 
 
